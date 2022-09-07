@@ -16,4 +16,8 @@ function oddishOrEvenish(myNumber){
     }
 }
 
-console.log(oddishOrEvenish(5000))
+let randomNumber = Math.floor(Math.random() * 100000 )
+
+console.log(randomNumber)
+
+console.log(oddishOrEvenish(randomNumber))
